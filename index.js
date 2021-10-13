@@ -72,7 +72,8 @@ class Counter {
     if(this.count === 0) {
       return 0
     } else {
-      return this.count - 1
+      this.count = this.count - 1
+      return this.count
     }
   }
 }
